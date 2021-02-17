@@ -1,7 +1,7 @@
 
 #standardSQL
 -- MIT License
--- Copyright (c) 2018 Evgeny Medvedev, evge.medvedev@gmail.com
+-- Copyright (c) 2021 Benjamin Trevor Grenier, hexioproject@gmail.com
 with double_entry_book as (
     -- debits
     select to_address as address, value as value
